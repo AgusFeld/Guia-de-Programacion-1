@@ -197,6 +197,8 @@ GameObject:
   - component: {fileID: 585459646}
   - component: {fileID: 585459648}
   - component: {fileID: 585459647}
+  - component: {fileID: 585459649}
+  - component: {fileID: 585459650}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -312,6 +314,37 @@ MonoBehaviour:
   num1: 0
   num2: 0
   num3: 0
+--- !u!114 &585459649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585459640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47560879f740ec4287c37d895e569f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  capital1: 2000
+  capital2: 1000
+  capital3: 325
+  nombre1: Agus
+  nombre2: Franco
+  nombre3: Jero
+--- !u!114 &585459650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585459640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6b586c87150ddb42b9bb2ae5ac671dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hora_actual: 15
 --- !u!1 &629148829
 GameObject:
   m_ObjectHideFlags: 0
